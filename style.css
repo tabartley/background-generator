@@ -5,7 +5,7 @@ body {
     text-transform: uppercase;
     letter-spacing: .5em;
     top: 15%;
-	  background: linear-gradient(to right, red , yellow); /* Standard syntax */
+	  background: linear-gradient(to right, red , black); /* Standard syntax */
 }
 
 h1 {
@@ -24,6 +24,30 @@ h3 {
     text-transform: none;
     letter-spacing: 0.01em;
 
+}
+
+.btn-light {
+	border: solid 1px black;
+}
+
+
+.btn-dark {
+	border: solid 1px white;
+}
+
+.btn-danger {
+	border: dashed 1px white;
+
+}
+
+.color1{
+  width: 150px;
+	height:50px;
+}
+
+.color2{
+  width:150px;
+	height:50px;
 }
 
 #gradientDirection{
